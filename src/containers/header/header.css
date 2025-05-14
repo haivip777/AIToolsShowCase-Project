@@ -71,6 +71,10 @@
   border-bottom-right-radius: 5px;
 }
 
+.gpt3__header-content__input button:hover {
+  opacity: 0.8;
+}
+
 .gpt3__header-content__people {
   width: 100%;
   display: flex;

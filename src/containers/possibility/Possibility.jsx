@@ -8,10 +8,10 @@ const Possibility = () => {
         <img src={possibilityImage} alt="possibility" />
       </div>
       <div className="gpt3__possibility-content">
-        <h4>Request Early Access to Get Started</h4>
-        <h1 className='gradient__text'>The possibilities are beyond your imagination</h1>
-        <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-        <h4>Request Early Access to Get Started</h4>
+        <h4>Unlock Limitless Potential with AI</h4>
+        <h1 className='gradient__text'>Discover What's Possible with the Right AI Tools</h1>
+        <p>From generating content and designing visuals to creating videos and enhancing productivity, AI tools can transform the way you work and create. The only limit is your imagination.</p>
+        <h4>Start Exploring the Future Today</h4>
       </div>
     </div>
   )

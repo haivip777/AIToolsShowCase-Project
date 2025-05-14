@@ -18,8 +18,8 @@
 }
 
 .gpt3__navbar-links_logo img {
-  width: 62px;
-  height: 16px;
+  width: 60px;
+  height: 60px;
 }
 
 .gpt3__navbar-links_container {
@@ -49,6 +49,8 @@
 
 .gpt3__navbar-links_container p:hover {
   color: #FF4820;
+  transition: all 0.3s ease;
+
 }
 
 .gpt3__navbar-sign button,
@@ -64,6 +66,10 @@
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+.gpt3__navbar-sign button:hover{
+  opacity: 0.8;
 }
 
 .gpt3__navbar-menu {

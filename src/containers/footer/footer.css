@@ -36,6 +36,11 @@
   cursor: pointer;
 }
 
+.gpt3__footer-btn:hover {
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
 .gpt3__footer-btn p {
   box-sizing: border-box;
   font-family: var(--font-family);
@@ -67,8 +72,8 @@
 }
 
 .gpt3__footer-links_logo img {
-  width: 118px;
-  height: 30px;
+  width: 112px;
+  height: 112px;
 
   margin-bottom: 1rem;
 }
@@ -141,7 +146,7 @@
 @media screen and (max-width: 400px) {
   .gpt3__footer-heading h1 {
     font-size: 27px;
-    line-height: 20px;
+    line-height: 35px;
   }
   .gpt3__footer-links div {
     margin: 1rem 0;

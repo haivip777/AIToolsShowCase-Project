@@ -1,23 +1,22 @@
-import React from 'react'
 import './features.css'
 import { Feature } from '../../components'
 
 const featuresData = [
   {
-    title: 'Improving end distrust instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title: 'AI-Powered Content Creation',
+    text: 'Generate high-quality content instantly with tools like ChatGPT and Jasper. From blog posts to marketing copy, AI makes content creation faster and easier.'
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.'
+    title: 'Creative Image & Video Generation',
+    text: 'Create stunning images and videos with AI tools like Midjourney and D-ID. Unlock your creativity by turning text prompts into visual masterpieces.'
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
+    title: 'Boost Your Productivity with AI',
+    text: 'Enhance your workflow with AI assistants like Notion AI and Copy.ai. Organize tasks, write emails, and more, all with the help of AI.'
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.'
+    title: 'AI for Business & Marketing',
+    text: 'Leverage AI for smarter business decisions, customer service automation, and personalized marketing strategies. Tools like Synthesia offer unique ways to connect with customers.'
   }
 ]
 
@@ -26,9 +25,9 @@ const Features = () => {
     <div className='gpt3__features section__padding' id='features'>
       <div className='gpt3__features-heading'>
         <h1 className='gradient__text'>
-          The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
+          Unlock the Power of AI Tools and Transform Your Work
         </h1>
-        <p>Request Early Access to Get Started</p>
+        <p>Unlock the Power of AI Tools and Transform Your Work</p>
       </div>
       <div className="gpt3__features-container">
         {featuresData.map((item, index) => {
