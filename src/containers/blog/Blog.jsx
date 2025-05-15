@@ -1,9 +1,11 @@
 import { Article } from '../../components'
 import './blog.css'
 import { blog01, blog02, blog03, blog04, blog05 } from './imports'
+import Motion from '../../components/motion/Motion'
 
 const Blog = () => {
   return (
+    <Motion direction="right" delay={0.2}>
     <div className='gpt3__blog section__padding' id='blog'>
       <div className='gpt3__blog-heading'>
         <h1 className='gradient__text'>Discover What’s New in the World of AI</h1>
@@ -20,6 +22,7 @@ const Blog = () => {
         </div>
       </div>
     </div>
+    </Motion>
   )
 }
 

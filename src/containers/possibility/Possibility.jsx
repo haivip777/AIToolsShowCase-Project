@@ -1,8 +1,10 @@
 import './possibility.css'
 import possibilityImage from '../../assets/possibility.png'
+import Motion from '../../components/motion/Motion'
 
 const Possibility = () => {
   return (
+    <Motion direction="left" delay={0.2}>
     <div className='gpt3__possibility section__padding' id='possibility'>
       <div className="gpt3__possibility-image">
         <img src={possibilityImage} alt="possibility" />
@@ -14,6 +16,7 @@ const Possibility = () => {
         <h4>Start Exploring the Future Today</h4>
       </div>
     </div>
+    </Motion>
   )
 }
 

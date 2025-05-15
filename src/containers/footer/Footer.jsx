@@ -1,8 +1,10 @@
 import gpt3logo from '../../assets/ailogo.png'
 import './footer.css'
+import Motion from '../../components/motion/Motion'
 
 const Footer = () => {
   return (
+    <Motion direction="left" delay={0.2}>
     <div className='gpt3__footer section__padding'>
       <div className='gpt3__footer-heading'>
         <h1 className='gradient__text'>Do you want to step into the future before others?</h1>
@@ -39,6 +41,7 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} haidep777. All rights reserved.</p>
       </div>
     </div>
+    </Motion>
   )
 }
 

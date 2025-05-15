@@ -1,10 +1,12 @@
 import './brand.css'
 import { google, slack, atlassian, dropbox, shopify } from './imports'
+import Motion from '../../components/motion/Motion'
 // import { chatgpt, midjourney, notion, did, synthesia } from './imports';
 
 const Brand = () => {
   return (
     <div className='gpt3__brand section__padding'>
+      <Motion direction="left" delay={0.2}>
       <div>
         <img src={google} alt="google" />
       </div>
@@ -20,6 +22,7 @@ const Brand = () => {
       <div>
         <img src={shopify} alt="shopify" />
       </div>
+      </Motion>
     </div>
   )
 }

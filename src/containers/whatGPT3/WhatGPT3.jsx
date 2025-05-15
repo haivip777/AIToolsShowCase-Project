@@ -1,8 +1,10 @@
 import { Feature } from '../../components'
 import './whatGPT3.css'
+import Motion from '../../components/motion/Motion'
 
 const WhatGPT3 = () => {
   return (
+    <Motion direction="left" delay={0.2}>
     <div className='gpt3__whatgpt3 section__margin' id='wgpt3'>
       <div className='gpt3__whatgpt3-feature'>
         <Feature title='What is AI Tools Showcase?' text='AI Tools Showcase is a curated platform highlighting powerful, easy-to-use AI tools for creators, professionals, and developers. Discover what’s possible with the latest innovations in artificial intelligence.' />
@@ -17,6 +19,8 @@ const WhatGPT3 = () => {
         <Feature title='Productivity Boosters' text='AI assistants like Notion AI or Copy.ai help streamline your daily work and enhance creativity and efficiency.'/>
       </div>
     </div>
+    </Motion>
+
   )
 }
 
